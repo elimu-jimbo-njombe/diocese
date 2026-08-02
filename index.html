@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Information System</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f4f6f9;color:#333}
+header{background:#0d47a1;color:#fff;padding:15px 8%}
+nav{display:flex;justify-content:space-between;align-items:center}
+nav ul{display:flex;list-style:none}
+nav ul li{margin-left:20px}
+nav ul li a{color:#fff;text-decoration:none}
+.hero{
+background:linear-gradient(rgba(13,71,161,.8),rgba(13,71,161,.8)),
+url("https://picsum.photos/1200/700");
+background-size:cover;
+background-position:center;
+color:#fff;
+text-align:center;
+padding:90px 20px;
+}
+.hero h1{font-size:42px}
+.hero p{margin:20px auto;max-width:700px}
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#ff9800;
+color:#fff;
+text-decoration:none;
+border-radius:5px;
+}
+section{padding:60px 8%}
+.title{text-align:center;margin-bottom:40px;color:#0d47a1}
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+.card{
+background:#fff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+text-align:center;
+}
+.card h3{margin:15px 0;color:#0d47a1}
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+align-items:center;
+}
+.about img{
+width:100%;
+border-radius:10px;
+}
+.contact{
+background:#0d47a1;
+color:#fff;
+text-align:center;
+}
+footer{
+background:#222;
+color:#fff;
+text-align:center;
+padding:15px;
+}
+@media(max-width:768px){
+nav{flex-direction:column}
+nav ul{margin-top:15px}
+.about{grid-template-columns:1fr}
+.hero h1{font-size:30px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+
+<ul>
+<li><a href="https://umawanjo.ac.tz/njombe/sis.html"> Dashboard</a></li>
+<li><a href="https://umawanjo.ac.tz/njombe/read.html">Mwongozo</a></li>
+<li><a href="https://umawanjo.ac.tz/njombe/login.php">Login</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Ludewa School Information System</h1>
+<p>
+Manage Students, Teachers, Results, Attendance,
+Fees and Reports from one secure system.
+</p>
+<a href="https://umawanjo.ac.tz/njombe/login.php" class="btn">Login Now</a>
+</section>
+
+<section>
+<h2 class="title">System Features</h2>
+<div class="cards">
+
+<div class="card">
+<h3>Students</h3>
+<p>Register and manage student information.</p>
+</div>
+
+<div class="card">
+<h3>Results</h3>
+<p>Enter marks and print examination results.</p>
+</div>
+
+<div class="card">
+<h3>Attendance</h3>
+<p>Track daily student attendance.</p>
+</div>
+
+<div class="card">
+<h3>Teachers</h3>
+<p>Manage teachers and subjects.</p>
+</div>
+
+<div class="card">
+<h3>Fees</h3>
+<p>Monitor school fee payments.</p>
+</div>
+
+<div class="card">
+<h3>Reports</h3>
+<p>Generate printable reports instantly.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="title">About SIS</h2>
+<div class="about">
+<div>
+<h3>Simple, Fast and Secure</h3>
+<p>
+School Information System helps schools manage
+academic and administrative activities from one
+place. It improves accuracy, saves time and
+provides instant reports for administrators,
+teachers and students.
+</p>
+</div>
+
+<div>
+<img src="https://picsum.photos/600/400" alt="School">
+</div>
+</div>
+</section>
+
+<section class="contact">
+<h2>Contact Us</h2>
+<p>Email: pmwasyika@gmail.com</p>
+<p>Phone: +255 765 883 980</p>
+</section>
+
+<footer>
+&copy; 2026 School Information System. All Rights Reserved.
+</footer>
+
+</body>
+</html>
